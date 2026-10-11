@@ -1,4 +1,3 @@
-cat << 'EOF' > manager.py
 import os
 import subprocess
 import sys
@@ -156,4 +155,3 @@ if __name__ == '__main__':
         print("错误：请使用 root 权限运行此脚本！")
         sys.exit(1)
     show_menu()
-EOF
